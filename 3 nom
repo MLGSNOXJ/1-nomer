@@ -1,0 +1,16 @@
+#define _USE_MATH_DEFINES 
+#include<iostream> 
+#include<iomanip> 
+#include<cmath> 
+ 
+using namespace std; 
+ 
+int main() { 
+
+ 
+ double pi = M_PI, pi1 = atan(1) * 4, pi2 = 22. / 7., pi3 = 355. / 113., pi4 = 104348. / 33215., pi5 = sqrt(9.869604401); 
+  
+ cout « fixed « setprecision(35); 
+ cout « pi « endl « pi1 « endl « pi2 « endl « pi3 « endl « pi4 « endl « pi5 « « endl; 
+ return 0; 
+}
